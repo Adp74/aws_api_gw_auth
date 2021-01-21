@@ -1,6 +1,6 @@
 #default
 provider "aws" {
-  profile = "vf-iedelivery-sandbox-01"
+  profile = "abc"
   region = "eu-west-1"
   #assume_role {
   #  role_arn = 
@@ -9,10 +9,7 @@ provider "aws" {
 
 provider "aws" {
   alias  = "use1"
-  profile = "vf-iedelivery-sandbox-01"
+  profile = "abc"
   region = "us-east-1"
-  
-  #assume_role {
-  #  role_arn = "arn:aws:iam::299879056526:role/vf-iedelivery-ci-cd-deploy-role"
-  #}
+
 }
